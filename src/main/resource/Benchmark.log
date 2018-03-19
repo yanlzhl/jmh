@@ -1,0 +1,105 @@
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=63832:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 0.00% complete, ETA 00:03:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 10.224 ops/ms
+# Warmup Iteration   2: 10.031 ops/ms
+# Warmup Iteration   3: 14.681 ops/ms
+Iteration   1: 17.440 ops/ms
+Iteration   2: 19.372 ops/ms
+Iteration   3: 19.480 ops/ms
+Iteration   4: 20.179 ops/ms
+Iteration   5: 19.736 ops/ms
+Iteration   6: 25.849 ops/ms
+Iteration   7: 24.168 ops/ms
+Iteration   8: 21.458 ops/ms
+Iteration   9: 21.332 ops/ms
+Iteration  10: 22.206 ops/ms
+
+# Run progress: 25.00% complete, ETA 00:02:43
+# Fork: 2 of 2
+# Warmup Iteration   1: 17.515 ops/ms
+# Warmup Iteration   2: 25.603 ops/ms
+# Warmup Iteration   3: 39.790 ops/ms
+Iteration   1: 22.513 ops/ms
+Iteration   2: 21.290 ops/ms
+Iteration   3: 22.610 ops/ms
+Iteration   4: 26.831 ops/ms
+Iteration   5: 20.722 ops/ms
+Iteration   6: 20.727 ops/ms
+Iteration   7: 20.341 ops/ms
+Iteration   8: 20.221 ops/ms
+Iteration   9: 20.463 ops/ms
+Iteration  10: 20.540 ops/ms
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringAdd":
+  21.374 ±(99.9%) 1.922 ops/ms [Average]
+  (min, avg, max) = (17.440, 21.374, 26.831), stdev = 2.213
+  CI (99.9%): [19.452, 23.296] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=63832:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 50.00% complete, ETA 00:01:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 19.450 ops/ms
+# Warmup Iteration   2: 24.109 ops/ms
+# Warmup Iteration   3: 43.651 ops/ms
+Iteration   1: 25.681 ops/ms
+Iteration   2: 23.830 ops/ms
+Iteration   3: 23.797 ops/ms
+Iteration   4: 23.891 ops/ms
+Iteration   5: 23.985 ops/ms
+Iteration   6: 23.924 ops/ms
+Iteration   7: 24.053 ops/ms
+Iteration   8: 23.859 ops/ms
+Iteration   9: 24.015 ops/ms
+Iteration  10: 23.923 ops/ms
+
+# Run progress: 75.00% complete, ETA 00:00:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 19.219 ops/ms
+# Warmup Iteration   2: 24.693 ops/ms
+# Warmup Iteration   3: 28.609 ops/ms
+Iteration   1: 23.714 ops/ms
+Iteration   2: 24.065 ops/ms
+Iteration   3: 24.054 ops/ms
+Iteration   4: 23.265 ops/ms
+Iteration   5: 23.873 ops/ms
+Iteration   6: 23.538 ops/ms
+Iteration   7: 26.527 ops/ms
+Iteration   8: 23.788 ops/ms
+Iteration   9: 30.726 ops/ms
+Iteration  10: 24.370 ops/ms
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringBuilderAdd":
+  24.444 ±(99.9%) 1.432 ops/ms [Average]
+  (min, avg, max) = (23.265, 24.444, 30.726), stdev = 1.649
+  CI (99.9%): [23.012, 25.876] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:36
+
+Benchmark                                     Mode  Cnt   Score   Error   Units
+StringBuilderBenchmark.testStringAdd         thrpt   20  21.374 ± 1.922  ops/ms
+StringBuilderBenchmark.testStringBuilderAdd  thrpt   20  24.444 ± 1.432  ops/ms

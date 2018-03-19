@@ -1,0 +1,883 @@
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 0.00% complete, ETA 00:10:36
+# Fork: 1 of 2
+# Warmup Iteration   1: 11.221 ops/ms
+# Warmup Iteration   2: 7.636 ops/ms
+# Warmup Iteration   3: 32.558 ops/ms
+Iteration   1: 29.091 ops/ms
+Iteration   2: 20.175 ops/ms
+Iteration   3: 20.422 ops/ms
+Iteration   4: 20.296 ops/ms
+Iteration   5: 20.428 ops/ms
+Iteration   6: 20.336 ops/ms
+Iteration   7: 20.340 ops/ms
+Iteration   8: 20.668 ops/ms
+Iteration   9: 20.674 ops/ms
+Iteration  10: 20.405 ops/ms
+
+# Run progress: 8.33% complete, ETA 00:09:58
+# Fork: 2 of 2
+# Warmup Iteration   1: 18.348 ops/ms
+# Warmup Iteration   2: 21.373 ops/ms
+# Warmup Iteration   3: 23.262 ops/ms
+Iteration   1: 21.044 ops/ms
+Iteration   2: 21.297 ops/ms
+Iteration   3: 20.466 ops/ms
+Iteration   4: 20.766 ops/ms
+Iteration   5: 27.818 ops/ms
+Iteration   6: 21.151 ops/ms
+Iteration   7: 21.062 ops/ms
+Iteration   8: 20.628 ops/ms
+Iteration   9: 20.750 ops/ms
+Iteration  10: 20.596 ops/ms
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringAdd":
+  21.421 ±(99.9%) 2.113 ops/ms [Average]
+  (min, avg, max) = (20.175, 21.421, 29.091), stdev = 2.434
+  CI (99.9%): [19.308, 23.534] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 16.67% complete, ETA 00:09:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 19.213 ops/ms
+# Warmup Iteration   2: 26.132 ops/ms
+# Warmup Iteration   3: 27.644 ops/ms
+Iteration   1: 23.716 ops/ms
+Iteration   2: 23.336 ops/ms
+Iteration   3: 23.156 ops/ms
+Iteration   4: 23.142 ops/ms
+Iteration   5: 25.330 ops/ms
+Iteration   6: 23.472 ops/ms
+Iteration   7: 23.394 ops/ms
+Iteration   8: 23.702 ops/ms
+Iteration   9: 22.470 ops/ms
+Iteration  10: 36.252 ops/ms
+
+# Run progress: 25.00% complete, ETA 00:08:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 20.754 ops/ms
+# Warmup Iteration   2: 17.132 ops/ms
+# Warmup Iteration   3: 30.277 ops/ms
+Iteration   1: 37.969 ops/ms
+Iteration   2: 39.531 ops/ms
+Iteration   3: 31.454 ops/ms
+Iteration   4: 43.446 ops/ms
+Iteration   5: 26.850 ops/ms
+Iteration   6: 23.550 ops/ms
+Iteration   7: 23.863 ops/ms
+Iteration   8: 23.299 ops/ms
+Iteration   9: 23.522 ops/ms
+Iteration  10: 23.281 ops/ms
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringBuilderAdd":
+  27.237 ±(99.9%) 5.729 ops/ms [Average]
+  (min, avg, max) = (22.470, 27.237, 43.446), stdev = 6.597
+  CI (99.9%): [21.508, 32.966] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 33.33% complete, ETA 00:07:12
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.375 ±(99.9%) 0.208 ms/op
+# Warmup Iteration   2: 0.263 ±(99.9%) 0.122 ms/op
+# Warmup Iteration   3: 0.305 ±(99.9%) 0.188 ms/op
+Iteration   1: 0.226 ±(99.9%) 0.074 ms/op
+Iteration   2: 0.288 ±(99.9%) 0.072 ms/op
+Iteration   3: 0.292 ±(99.9%) 0.085 ms/op
+Iteration   4: 0.293 ±(99.9%) 0.104 ms/op
+Iteration   5: 0.285 ±(99.9%) 0.064 ms/op
+Iteration   6: 0.304 ±(99.9%) 0.110 ms/op
+Iteration   7: 0.300 ±(99.9%) 0.095 ms/op
+Iteration   8: 0.307 ±(99.9%) 0.094 ms/op
+Iteration   9: 0.310 ±(99.9%) 0.125 ms/op
+Iteration  10: 0.297 ±(99.9%) 0.072 ms/op
+
+# Run progress: 41.66% complete, ETA 00:06:18
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.387 ±(99.9%) 0.366 ms/op
+# Warmup Iteration   2: 1.095 ±(99.9%) 1.418 ms/op
+# Warmup Iteration   3: 0.236 ±(99.9%) 0.060 ms/op
+Iteration   1: 0.278 ±(99.9%) 0.057 ms/op
+Iteration   2: 0.296 ±(99.9%) 0.118 ms/op
+Iteration   3: 0.302 ±(99.9%) 0.164 ms/op
+Iteration   4: 0.299 ±(99.9%) 0.142 ms/op
+Iteration   5: 0.294 ±(99.9%) 0.043 ms/op
+Iteration   6: 0.303 ±(99.9%) 0.163 ms/op
+Iteration   7: 0.298 ±(99.9%) 0.123 ms/op
+Iteration   8: 0.294 ±(99.9%) 0.048 ms/op
+Iteration   9: 0.303 ±(99.9%) 0.106 ms/op
+Iteration  10: 0.341 ±(99.9%) 0.163 ms/op
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringAdd":
+  0.296 ±(99.9%) 0.018 ms/op [Average]
+  (min, avg, max) = (0.226, 0.296, 0.341), stdev = 0.021
+  CI (99.9%): [0.278, 0.313] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 50.00% complete, ETA 00:05:24
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.345 ±(99.9%) 0.148 ms/op
+# Warmup Iteration   2: 0.434 ±(99.9%) 0.499 ms/op
+# Warmup Iteration   3: 0.346 ±(99.9%) 0.524 ms/op
+Iteration   1: 0.306 ±(99.9%) 0.334 ms/op
+Iteration   2: 0.322 ±(99.9%) 0.607 ms/op
+Iteration   3: 0.262 ±(99.9%) 0.150 ms/op
+Iteration   4: 0.261 ±(99.9%) 0.137 ms/op
+Iteration   5: 0.273 ±(99.9%) 0.245 ms/op
+Iteration   6: 0.284 ±(99.9%) 0.361 ms/op
+Iteration   7: 0.259 ±(99.9%) 0.122 ms/op
+Iteration   8: 0.269 ±(99.9%) 0.198 ms/op
+Iteration   9: 0.261 ±(99.9%) 0.112 ms/op
+Iteration  10: 0.424 ±(99.9%) 0.256 ms/op
+
+# Run progress: 58.33% complete, ETA 00:04:29
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.397 ±(99.9%) 0.331 ms/op
+# Warmup Iteration   2: 0.485 ±(99.9%) 0.480 ms/op
+# Warmup Iteration   3: 0.289 ±(99.9%) 0.184 ms/op
+Iteration   1: 0.292 ±(99.9%) 0.236 ms/op
+Iteration   2: 0.307 ±(99.9%) 0.248 ms/op
+Iteration   3: 0.304 ±(99.9%) 0.185 ms/op
+Iteration   4: 0.266 ±(99.9%) 0.137 ms/op
+Iteration   5: 0.261 ±(99.9%) 0.122 ms/op
+Iteration   6: 0.281 ±(99.9%) 0.259 ms/op
+Iteration   7: 0.283 ±(99.9%) 0.309 ms/op
+Iteration   8: 0.263 ±(99.9%) 0.156 ms/op
+Iteration   9: 0.271 ±(99.9%) 0.205 ms/op
+Iteration  10: 0.269 ±(99.9%) 0.159 ms/op
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringBuilderAdd":
+  0.286 ±(99.9%) 0.032 ms/op [Average]
+  (min, avg, max) = (0.259, 0.286, 0.424), stdev = 0.037
+  CI (99.9%): [0.253, 0.318] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 66.66% complete, ETA 00:03:35
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.331 ±(99.9%) 0.019 ms/op
+# Warmup Iteration   2: 0.295 ±(99.9%) 0.009 ms/op
+# Warmup Iteration   3: 0.294 ±(99.9%) 0.006 ms/op
+Iteration   1: 0.292 ±(99.9%) 0.007 ms/op
+                 testStringAdd·p0.00:   0.011 ms/op
+                 testStringAdd·p0.50:   0.198 ms/op
+                 testStringAdd·p0.90:   0.482 ms/op
+                 testStringAdd·p0.95:   0.634 ms/op
+                 testStringAdd·p0.99:   1.896 ms/op
+                 testStringAdd·p0.999:  8.208 ms/op
+                 testStringAdd·p0.9999: 17.130 ms/op
+                 testStringAdd·p1.00:   57.672 ms/op
+
+Iteration   2: 0.226 ±(99.9%) 0.009 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.121 ms/op
+                 testStringAdd·p0.90:   0.401 ms/op
+                 testStringAdd·p0.95:   0.490 ms/op
+                 testStringAdd·p0.99:   1.548 ms/op
+                 testStringAdd·p0.999:  13.017 ms/op
+                 testStringAdd·p0.9999: 34.390 ms/op
+                 testStringAdd·p1.00:   49.545 ms/op
+
+Iteration   3: 0.291 ±(99.9%) 0.005 ms/op
+                 testStringAdd·p0.00:   0.012 ms/op
+                 testStringAdd·p0.50:   0.220 ms/op
+                 testStringAdd·p0.90:   0.489 ms/op
+                 testStringAdd·p0.95:   0.642 ms/op
+                 testStringAdd·p0.99:   1.786 ms/op
+                 testStringAdd·p0.999:  6.989 ms/op
+                 testStringAdd·p0.9999: 13.348 ms/op
+                 testStringAdd·p1.00:   19.333 ms/op
+
+Iteration   4: 0.301 ±(99.9%) 0.005 ms/op
+                 testStringAdd·p0.00:   0.011 ms/op
+                 testStringAdd·p0.50:   0.231 ms/op
+                 testStringAdd·p0.90:   0.502 ms/op
+                 testStringAdd·p0.95:   0.698 ms/op
+                 testStringAdd·p0.99:   1.862 ms/op
+                 testStringAdd·p0.999:  6.075 ms/op
+                 testStringAdd·p0.9999: 10.797 ms/op
+                 testStringAdd·p1.00:   28.344 ms/op
+
+Iteration   5: 0.304 ±(99.9%) 0.005 ms/op
+                 testStringAdd·p0.00:   0.029 ms/op
+                 testStringAdd·p0.50:   0.202 ms/op
+                 testStringAdd·p0.90:   0.515 ms/op
+                 testStringAdd·p0.95:   0.750 ms/op
+                 testStringAdd·p0.99:   2.060 ms/op
+                 testStringAdd·p0.999:  6.358 ms/op
+                 testStringAdd·p0.9999: 14.185 ms/op
+                 testStringAdd·p1.00:   16.302 ms/op
+
+Iteration   6: 0.300 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.030 ms/op
+                 testStringAdd·p0.50:   0.243 ms/op
+                 testStringAdd·p0.90:   0.504 ms/op
+                 testStringAdd·p0.95:   0.693 ms/op
+                 testStringAdd·p0.99:   1.724 ms/op
+                 testStringAdd·p0.999:  5.505 ms/op
+                 testStringAdd·p0.9999: 10.276 ms/op
+                 testStringAdd·p1.00:   12.403 ms/op
+
+Iteration   7: 0.305 ±(99.9%) 0.005 ms/op
+                 testStringAdd·p0.00:   0.013 ms/op
+                 testStringAdd·p0.50:   0.202 ms/op
+                 testStringAdd·p0.90:   0.511 ms/op
+                 testStringAdd·p0.95:   0.744 ms/op
+                 testStringAdd·p0.99:   2.171 ms/op
+                 testStringAdd·p0.999:  6.734 ms/op
+                 testStringAdd·p0.9999: 12.044 ms/op
+                 testStringAdd·p1.00:   15.581 ms/op
+
+Iteration   8: 0.194 ±(99.9%) 0.012 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.085 ms/op
+                 testStringAdd·p0.90:   0.244 ms/op
+                 testStringAdd·p0.95:   0.379 ms/op
+                 testStringAdd·p0.99:   1.343 ms/op
+                 testStringAdd·p0.999:  17.104 ms/op
+                 testStringAdd·p0.9999: 71.775 ms/op
+                 testStringAdd·p1.00:   99.484 ms/op
+
+Iteration   9: 0.213 ±(99.9%) 0.020 ms/op
+                 testStringAdd·p0.00:   0.008 ms/op
+                 testStringAdd·p0.50:   0.095 ms/op
+                 testStringAdd·p0.90:   0.347 ms/op
+                 testStringAdd·p0.95:   0.456 ms/op
+                 testStringAdd·p0.99:   1.333 ms/op
+                 testStringAdd·p0.999:  14.313 ms/op
+                 testStringAdd·p0.9999: 52.232 ms/op
+                 testStringAdd·p1.00:   273.678 ms/op
+
+Iteration  10: 0.159 ±(99.9%) 0.007 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.088 ms/op
+                 testStringAdd·p0.90:   0.216 ms/op
+                 testStringAdd·p0.95:   0.261 ms/op
+                 testStringAdd·p0.99:   0.888 ms/op
+                 testStringAdd·p0.999:  14.664 ms/op
+                 testStringAdd·p0.9999: 24.552 ms/op
+                 testStringAdd·p1.00:   58.065 ms/op
+
+
+# Run progress: 74.99% complete, ETA 00:02:42
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.327 ±(99.9%) 0.022 ms/op
+# Warmup Iteration   2: 0.228 ±(99.9%) 0.049 ms/op
+# Warmup Iteration   3: 0.174 ±(99.9%) 0.016 ms/op
+Iteration   1: 0.285 ±(99.9%) 0.006 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.205 ms/op
+                 testStringAdd·p0.90:   0.482 ms/op
+                 testStringAdd·p0.95:   0.609 ms/op
+                 testStringAdd·p0.99:   1.626 ms/op
+                 testStringAdd·p0.999:  6.011 ms/op
+                 testStringAdd·p0.9999: 15.258 ms/op
+                 testStringAdd·p1.00:   53.608 ms/op
+
+Iteration   2: 0.291 ±(99.9%) 0.011 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.183 ms/op
+                 testStringAdd·p0.90:   0.486 ms/op
+                 testStringAdd·p0.95:   0.668 ms/op
+                 testStringAdd·p0.99:   1.888 ms/op
+                 testStringAdd·p0.999:  6.572 ms/op
+                 testStringAdd·p0.9999: 75.597 ms/op
+                 testStringAdd·p1.00:   85.197 ms/op
+
+Iteration   3: 0.164 ±(99.9%) 0.006 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.096 ms/op
+                 testStringAdd·p0.90:   0.227 ms/op
+                 testStringAdd·p0.95:   0.333 ms/op
+                 testStringAdd·p0.99:   0.883 ms/op
+                 testStringAdd·p0.999:  14.025 ms/op
+                 testStringAdd·p0.9999: 29.548 ms/op
+                 testStringAdd·p1.00:   33.391 ms/op
+
+Iteration   4: 0.292 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.012 ms/op
+                 testStringAdd·p0.50:   0.239 ms/op
+                 testStringAdd·p0.90:   0.492 ms/op
+                 testStringAdd·p0.95:   0.636 ms/op
+                 testStringAdd·p0.99:   1.581 ms/op
+                 testStringAdd·p0.999:  4.755 ms/op
+                 testStringAdd·p0.9999: 10.154 ms/op
+                 testStringAdd·p1.00:   12.009 ms/op
+
+Iteration   5: 0.235 ±(99.9%) 0.016 ms/op
+                 testStringAdd·p0.00:   0.008 ms/op
+                 testStringAdd·p0.50:   0.094 ms/op
+                 testStringAdd·p0.90:   0.384 ms/op
+                 testStringAdd·p0.95:   0.487 ms/op
+                 testStringAdd·p0.99:   1.520 ms/op
+                 testStringAdd·p0.999:  24.347 ms/op
+                 testStringAdd·p0.9999: 81.137 ms/op
+                 testStringAdd·p1.00:   107.872 ms/op
+
+Iteration   6: 0.179 ±(99.9%) 0.006 ms/op
+                 testStringAdd·p0.00:   0.010 ms/op
+                 testStringAdd·p0.50:   0.106 ms/op
+                 testStringAdd·p0.90:   0.304 ms/op
+                 testStringAdd·p0.95:   0.432 ms/op
+                 testStringAdd·p0.99:   1.034 ms/op
+                 testStringAdd·p0.999:  11.597 ms/op
+                 testStringAdd·p0.9999: 28.387 ms/op
+                 testStringAdd·p1.00:   53.084 ms/op
+
+Iteration   7: 0.288 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.012 ms/op
+                 testStringAdd·p0.50:   0.243 ms/op
+                 testStringAdd·p0.90:   0.483 ms/op
+                 testStringAdd·p0.95:   0.621 ms/op
+                 testStringAdd·p0.99:   1.477 ms/op
+                 testStringAdd·p0.999:  5.017 ms/op
+                 testStringAdd·p0.9999: 11.141 ms/op
+                 testStringAdd·p1.00:   12.108 ms/op
+
+Iteration   8: 0.290 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.011 ms/op
+                 testStringAdd·p0.50:   0.221 ms/op
+                 testStringAdd·p0.90:   0.490 ms/op
+                 testStringAdd·p0.95:   0.650 ms/op
+                 testStringAdd·p0.99:   1.783 ms/op
+                 testStringAdd·p0.999:  5.927 ms/op
+                 testStringAdd·p0.9999: 10.431 ms/op
+                 testStringAdd·p1.00:   11.960 ms/op
+
+Iteration   9: 0.292 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.011 ms/op
+                 testStringAdd·p0.50:   0.231 ms/op
+                 testStringAdd·p0.90:   0.485 ms/op
+                 testStringAdd·p0.95:   0.642 ms/op
+                 testStringAdd·p0.99:   1.700 ms/op
+                 testStringAdd·p0.999:  5.757 ms/op
+                 testStringAdd·p0.9999: 12.393 ms/op
+                 testStringAdd·p1.00:   16.908 ms/op
+
+Iteration  10: 0.300 ±(99.9%) 0.004 ms/op
+                 testStringAdd·p0.00:   0.013 ms/op
+                 testStringAdd·p0.50:   0.233 ms/op
+                 testStringAdd·p0.90:   0.495 ms/op
+                 testStringAdd·p0.95:   0.675 ms/op
+                 testStringAdd·p0.99:   1.899 ms/op
+                 testStringAdd·p0.999:  5.263 ms/op
+                 testStringAdd·p0.9999: 11.355 ms/op
+                 testStringAdd·p1.00:   14.483 ms/op
+
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringAdd":
+  N = 2416649
+  mean =      0.248 ±(99.9%) 0.002 ms/op
+
+  Histogram, ms/op:
+    [  0.000,  25.000) = 2416170 
+    [ 25.000,  50.000) = 351 
+    [ 50.000,  75.000) = 76 
+    [ 75.000, 100.000) = 29 
+    [100.000, 125.000) = 11 
+    [125.000, 150.000) = 1 
+    [150.000, 175.000) = 5 
+    [175.000, 200.000) = 0 
+    [200.000, 225.000) = 0 
+    [225.000, 250.000) = 0 
+    [250.000, 275.000) = 6 
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.008 ms/op
+     p(50.0000) =      0.150 ms/op
+     p(90.0000) =      0.457 ms/op
+     p(95.0000) =      0.554 ms/op
+     p(99.0000) =      1.610 ms/op
+     p(99.9000) =     10.076 ms/op
+     p(99.9900) =     35.805 ms/op
+     p(99.9990) =     99.309 ms/op
+     p(99.9999) =    273.678 ms/op
+    p(100.0000) =    273.678 ms/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, 1 s each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 83.33% complete, ETA 00:01:48
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.325 ±(99.9%) 0.021 ms/op
+# Warmup Iteration   2: 0.197 ±(99.9%) 0.033 ms/op
+# Warmup Iteration   3: 0.219 ±(99.9%) 0.012 ms/op
+Iteration   1: 0.265 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.796 ms/op
+                 testStringBuilderAdd·p0.95:   1.182 ms/op
+                 testStringBuilderAdd·p0.99:   2.200 ms/op
+                 testStringBuilderAdd·p0.999:  5.760 ms/op
+                 testStringBuilderAdd·p0.9999: 12.971 ms/op
+                 testStringBuilderAdd·p1.00:   19.104 ms/op
+
+Iteration   2: 0.266 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.807 ms/op
+                 testStringBuilderAdd·p0.95:   1.223 ms/op
+                 testStringBuilderAdd·p0.99:   2.281 ms/op
+                 testStringBuilderAdd·p0.999:  5.976 ms/op
+                 testStringBuilderAdd·p0.9999: 13.865 ms/op
+                 testStringBuilderAdd·p1.00:   14.844 ms/op
+
+Iteration   3: 0.273 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.008 ms/op
+                 testStringBuilderAdd·p0.50:   0.049 ms/op
+                 testStringBuilderAdd·p0.90:   0.753 ms/op
+                 testStringBuilderAdd·p0.95:   1.090 ms/op
+                 testStringBuilderAdd·p0.99:   2.068 ms/op
+                 testStringBuilderAdd·p0.999:  5.325 ms/op
+                 testStringBuilderAdd·p0.9999: 11.224 ms/op
+                 testStringBuilderAdd·p1.00:   14.516 ms/op
+
+Iteration   4: 0.271 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.793 ms/op
+                 testStringBuilderAdd·p0.95:   1.188 ms/op
+                 testStringBuilderAdd·p0.99:   2.433 ms/op
+                 testStringBuilderAdd·p0.999:  5.831 ms/op
+                 testStringBuilderAdd·p0.9999: 8.552 ms/op
+                 testStringBuilderAdd·p1.00:   12.173 ms/op
+
+Iteration   5: 0.267 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.815 ms/op
+                 testStringBuilderAdd·p0.95:   1.214 ms/op
+                 testStringBuilderAdd·p0.99:   2.310 ms/op
+                 testStringBuilderAdd·p0.999:  5.806 ms/op
+                 testStringBuilderAdd·p0.9999: 11.370 ms/op
+                 testStringBuilderAdd·p1.00:   16.515 ms/op
+
+Iteration   6: 0.268 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.008 ms/op
+                 testStringBuilderAdd·p0.50:   0.045 ms/op
+                 testStringBuilderAdd·p0.90:   0.792 ms/op
+                 testStringBuilderAdd·p0.95:   1.149 ms/op
+                 testStringBuilderAdd·p0.99:   2.142 ms/op
+                 testStringBuilderAdd·p0.999:  5.626 ms/op
+                 testStringBuilderAdd·p0.9999: 9.936 ms/op
+                 testStringBuilderAdd·p1.00:   11.731 ms/op
+
+Iteration   7: 0.271 ±(99.9%) 0.006 ms/op
+                 testStringBuilderAdd·p0.00:   0.008 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.798 ms/op
+                 testStringBuilderAdd·p0.95:   1.196 ms/op
+                 testStringBuilderAdd·p0.99:   2.373 ms/op
+                 testStringBuilderAdd·p0.999:  6.005 ms/op
+                 testStringBuilderAdd·p0.9999: 13.326 ms/op
+                 testStringBuilderAdd·p1.00:   17.662 ms/op
+
+Iteration   8: 0.266 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.011 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.803 ms/op
+                 testStringBuilderAdd·p0.95:   1.194 ms/op
+                 testStringBuilderAdd·p0.99:   2.331 ms/op
+                 testStringBuilderAdd·p0.999:  6.110 ms/op
+                 testStringBuilderAdd·p0.9999: 11.935 ms/op
+                 testStringBuilderAdd·p1.00:   19.431 ms/op
+
+Iteration   9: 0.269 ±(99.9%) 0.006 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.808 ms/op
+                 testStringBuilderAdd·p0.95:   1.192 ms/op
+                 testStringBuilderAdd·p0.99:   2.359 ms/op
+                 testStringBuilderAdd·p0.999:  6.635 ms/op
+                 testStringBuilderAdd·p0.9999: 10.958 ms/op
+                 testStringBuilderAdd·p1.00:   11.960 ms/op
+
+Iteration  10: 0.270 ±(99.9%) 0.006 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.044 ms/op
+                 testStringBuilderAdd·p0.90:   0.810 ms/op
+                 testStringBuilderAdd·p0.95:   1.229 ms/op
+                 testStringBuilderAdd·p0.99:   2.441 ms/op
+                 testStringBuilderAdd·p0.999:  6.011 ms/op
+                 testStringBuilderAdd·p0.9999: 11.831 ms/op
+                 testStringBuilderAdd·p1.00:   14.172 ms/op
+
+
+# Run progress: 91.66% complete, ETA 00:00:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.348 ±(99.9%) 0.019 ms/op
+# Warmup Iteration   2: 0.206 ±(99.9%) 0.039 ms/op
+# Warmup Iteration   3: 0.155 ±(99.9%) 0.013 ms/op
+Iteration   1: 0.287 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.011 ms/op
+                 testStringBuilderAdd·p0.50:   0.089 ms/op
+                 testStringBuilderAdd·p0.90:   0.699 ms/op
+                 testStringBuilderAdd·p0.95:   0.976 ms/op
+                 testStringBuilderAdd·p0.99:   2.092 ms/op
+                 testStringBuilderAdd·p0.999:  5.886 ms/op
+                 testStringBuilderAdd·p0.9999: 12.672 ms/op
+                 testStringBuilderAdd·p1.00:   14.451 ms/op
+
+Iteration   2: 0.290 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.012 ms/op
+                 testStringBuilderAdd·p0.50:   0.090 ms/op
+                 testStringBuilderAdd·p0.90:   0.706 ms/op
+                 testStringBuilderAdd·p0.95:   0.965 ms/op
+                 testStringBuilderAdd·p0.99:   2.171 ms/op
+                 testStringBuilderAdd·p0.999:  5.434 ms/op
+                 testStringBuilderAdd·p0.9999: 8.869 ms/op
+                 testStringBuilderAdd·p1.00:   11.387 ms/op
+
+Iteration   3: 0.288 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.013 ms/op
+                 testStringBuilderAdd·p0.50:   0.092 ms/op
+                 testStringBuilderAdd·p0.90:   0.696 ms/op
+                 testStringBuilderAdd·p0.95:   0.948 ms/op
+                 testStringBuilderAdd·p0.99:   2.122 ms/op
+                 testStringBuilderAdd·p0.999:  5.169 ms/op
+                 testStringBuilderAdd·p0.9999: 9.816 ms/op
+                 testStringBuilderAdd·p1.00:   15.155 ms/op
+
+Iteration   4: 0.287 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.090 ms/op
+                 testStringBuilderAdd·p0.90:   0.706 ms/op
+                 testStringBuilderAdd·p0.95:   0.962 ms/op
+                 testStringBuilderAdd·p0.99:   1.970 ms/op
+                 testStringBuilderAdd·p0.999:  5.382 ms/op
+                 testStringBuilderAdd·p0.9999: 10.030 ms/op
+                 testStringBuilderAdd·p1.00:   11.977 ms/op
+
+Iteration   5: 0.284 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.023 ms/op
+                 testStringBuilderAdd·p0.50:   0.090 ms/op
+                 testStringBuilderAdd·p0.90:   0.699 ms/op
+                 testStringBuilderAdd·p0.95:   0.942 ms/op
+                 testStringBuilderAdd·p0.99:   1.939 ms/op
+                 testStringBuilderAdd·p0.999:  5.256 ms/op
+                 testStringBuilderAdd·p0.9999: 10.244 ms/op
+                 testStringBuilderAdd·p1.00:   13.566 ms/op
+
+Iteration   6: 0.285 ±(99.9%) 0.004 ms/op
+                 testStringBuilderAdd·p0.00:   0.023 ms/op
+                 testStringBuilderAdd·p0.50:   0.097 ms/op
+                 testStringBuilderAdd·p0.90:   0.681 ms/op
+                 testStringBuilderAdd·p0.95:   0.899 ms/op
+                 testStringBuilderAdd·p0.99:   1.755 ms/op
+                 testStringBuilderAdd·p0.999:  4.931 ms/op
+                 testStringBuilderAdd·p0.9999: 9.044 ms/op
+                 testStringBuilderAdd·p1.00:   12.403 ms/op
+
+Iteration   7: 0.283 ±(99.9%) 0.004 ms/op
+                 testStringBuilderAdd·p0.00:   0.008 ms/op
+                 testStringBuilderAdd·p0.50:   0.093 ms/op
+                 testStringBuilderAdd·p0.90:   0.688 ms/op
+                 testStringBuilderAdd·p0.95:   0.929 ms/op
+                 testStringBuilderAdd·p0.99:   1.800 ms/op
+                 testStringBuilderAdd·p0.999:  5.047 ms/op
+                 testStringBuilderAdd·p0.9999: 10.745 ms/op
+                 testStringBuilderAdd·p1.00:   12.616 ms/op
+
+Iteration   8: 0.287 ±(99.9%) 0.005 ms/op
+                 testStringBuilderAdd·p0.00:   0.011 ms/op
+                 testStringBuilderAdd·p0.50:   0.092 ms/op
+                 testStringBuilderAdd·p0.90:   0.697 ms/op
+                 testStringBuilderAdd·p0.95:   0.958 ms/op
+                 testStringBuilderAdd·p0.99:   2.015 ms/op
+                 testStringBuilderAdd·p0.999:  5.284 ms/op
+                 testStringBuilderAdd·p0.9999: 10.293 ms/op
+                 testStringBuilderAdd·p1.00:   10.994 ms/op
+
+Iteration   9: 0.283 ±(99.9%) 0.004 ms/op
+                 testStringBuilderAdd·p0.00:   0.010 ms/op
+                 testStringBuilderAdd·p0.50:   0.093 ms/op
+                 testStringBuilderAdd·p0.90:   0.696 ms/op
+                 testStringBuilderAdd·p0.95:   0.934 ms/op
+                 testStringBuilderAdd·p0.99:   1.769 ms/op
+                 testStringBuilderAdd·p0.999:  5.267 ms/op
+                 testStringBuilderAdd·p0.9999: 9.656 ms/op
+                 testStringBuilderAdd·p1.00:   15.008 ms/op
+
+Iteration  10: 0.284 ±(99.9%) 0.004 ms/op
+                 testStringBuilderAdd·p0.00:   0.023 ms/op
+                 testStringBuilderAdd·p0.50:   0.094 ms/op
+                 testStringBuilderAdd·p0.90:   0.689 ms/op
+                 testStringBuilderAdd·p0.95:   0.924 ms/op
+                 testStringBuilderAdd·p0.99:   1.743 ms/op
+                 testStringBuilderAdd·p0.999:  4.638 ms/op
+                 testStringBuilderAdd·p0.9999: 9.215 ms/op
+                 testStringBuilderAdd·p1.00:   10.551 ms/op
+
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringBuilderAdd":
+  N = 2163937
+  mean =      0.277 ±(99.9%) 0.001 ms/op
+
+  Histogram, ms/op:
+    [ 0.000,  1.250) = 2086580 
+    [ 1.250,  2.500) = 62442 
+    [ 2.500,  3.750) = 9101 
+    [ 3.750,  5.000) = 2863 
+    [ 5.000,  6.250) = 1463 
+    [ 6.250,  7.500) = 719 
+    [ 7.500,  8.750) = 299 
+    [ 8.750, 10.000) = 193 
+    [10.000, 11.250) = 106 
+    [11.250, 12.500) = 77 
+    [12.500, 13.750) = 37 
+    [13.750, 15.000) = 36 
+    [15.000, 16.250) = 6 
+    [16.250, 17.500) = 12 
+    [17.500, 18.750) = 1 
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.008 ms/op
+     p(50.0000) =      0.052 ms/op
+     p(90.0000) =      0.737 ms/op
+     p(95.0000) =      1.067 ms/op
+     p(99.0000) =      2.138 ms/op
+     p(99.9000) =      5.595 ms/op
+     p(99.9900) =     10.617 ms/op
+     p(99.9990) =     14.945 ms/op
+     p(99.9999) =     18.867 ms/op
+    p(100.0000) =     19.431 ms/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringAdd
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 2.535 ±(99.9%) 1.576 ms/op
+# Warmup Iteration   2: 0.743 ±(99.9%) 0.584 ms/op
+# Warmup Iteration   3: 0.851 ±(99.9%) 0.972 ms/op
+Iteration   1: 0.342 ±(99.9%) 0.317 ms/op
+Iteration   2: 0.593 ±(99.9%) 0.756 ms/op
+Iteration   3: 0.438 ±(99.9%) 0.525 ms/op
+Iteration   4: 0.449 ±(99.9%) 0.615 ms/op
+Iteration   5: 0.466 ±(99.9%) 0.571 ms/op
+Iteration   6: 0.419 ±(99.9%) 0.596 ms/op
+Iteration   7: 0.637 ±(99.9%) 2.715 ms/op
+Iteration   8: 0.715 ±(99.9%) 0.769 ms/op
+Iteration   9: 0.320 ±(99.9%) 0.330 ms/op
+Iteration  10: 0.370 ±(99.9%) 0.459 ms/op
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 2 of 2
+# Warmup Iteration   1: 2.083 ±(99.9%) 0.775 ms/op
+# Warmup Iteration   2: 0.627 ±(99.9%) 0.770 ms/op
+# Warmup Iteration   3: 0.528 ±(99.9%) 0.835 ms/op
+Iteration   1: 0.490 ±(99.9%) 0.661 ms/op
+Iteration   2: 0.595 ±(99.9%) 0.867 ms/op
+Iteration   3: 0.478 ±(99.9%) 0.535 ms/op
+Iteration   4: 0.407 ±(99.9%) 0.590 ms/op
+Iteration   5: 0.705 ±(99.9%) 1.410 ms/op
+Iteration   6: 1.226 ±(99.9%) 3.167 ms/op
+Iteration   7: 0.365 ±(99.9%) 0.436 ms/op
+Iteration   8: 0.316 ±(99.9%) 0.247 ms/op
+Iteration   9: 0.489 ±(99.9%) 0.696 ms/op
+Iteration  10: 0.509 ±(99.9%) 0.610 ms/op
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringAdd":
+  N = 20
+  mean =      0.516 ±(99.9%) 0.178 ms/op
+
+  Histogram, ms/op:
+    [0.300, 0.400) = 5 
+    [0.400, 0.500) = 8 
+    [0.500, 0.600) = 3 
+    [0.600, 0.700) = 1 
+    [0.700, 0.800) = 2 
+    [0.800, 0.900) = 0 
+    [0.900, 1.000) = 0 
+    [1.000, 1.100) = 0 
+    [1.100, 1.200) = 0 
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.316 ms/op
+     p(50.0000) =      0.472 ms/op
+     p(90.0000) =      0.714 ms/op
+     p(95.0000) =      1.200 ms/op
+     p(99.0000) =      1.226 ms/op
+     p(99.9000) =      1.226 ms/op
+     p(99.9900) =      1.226 ms/op
+     p(99.9990) =      1.226 ms/op
+     p(99.9999) =      1.226 ms/op
+    p(100.0000) =      1.226 ms/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\JavaEnv\Java\jdk1.8.0_131\jre\bin\java.exe
+# VM options: -javaagent:C:\software\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=64282:C:\software\IntelliJ IDEA 2017.1.4\bin -Dfile.encoding=UTF-8
+# Warmup: 3 iterations, single-shot each
+# Measurement: 10 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 6 threads
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.yanlz.StringBuilderBenchmark.testStringBuilderAdd
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 2.440 ±(99.9%) 1.039 ms/op
+# Warmup Iteration   2: 0.516 ±(99.9%) 0.790 ms/op
+# Warmup Iteration   3: 0.535 ±(99.9%) 0.771 ms/op
+Iteration   1: 0.482 ±(99.9%) 0.774 ms/op
+Iteration   2: 0.464 ±(99.9%) 0.849 ms/op
+Iteration   3: 0.451 ±(99.9%) 0.820 ms/op
+Iteration   4: 0.436 ±(99.9%) 0.693 ms/op
+Iteration   5: 0.427 ±(99.9%) 0.686 ms/op
+Iteration   6: 0.496 ±(99.9%) 0.886 ms/op
+Iteration   7: 0.268 ±(99.9%) 0.279 ms/op
+Iteration   8: 0.228 ±(99.9%) 0.189 ms/op
+Iteration   9: 0.474 ±(99.9%) 0.584 ms/op
+Iteration  10: 0.676 ±(99.9%) 1.290 ms/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 2 of 2
+# Warmup Iteration   1: 2.089 ±(99.9%) 1.024 ms/op
+# Warmup Iteration   2: 0.572 ±(99.9%) 0.886 ms/op
+# Warmup Iteration   3: 0.570 ±(99.9%) 0.829 ms/op
+Iteration   1: 0.504 ±(99.9%) 0.835 ms/op
+Iteration   2: 0.571 ±(99.9%) 0.797 ms/op
+Iteration   3: 0.431 ±(99.9%) 0.752 ms/op
+Iteration   4: 0.434 ±(99.9%) 0.729 ms/op
+Iteration   5: 0.485 ±(99.9%) 0.762 ms/op
+Iteration   6: 0.627 ±(99.9%) 0.678 ms/op
+Iteration   7: 0.420 ±(99.9%) 0.772 ms/op
+Iteration   8: 0.539 ±(99.9%) 0.837 ms/op
+Iteration   9: 0.457 ±(99.9%) 0.743 ms/op
+Iteration  10: 0.355 ±(99.9%) 0.506 ms/op
+
+
+Result "com.yanlz.StringBuilderBenchmark.testStringBuilderAdd":
+  N = 20
+  mean =      0.461 ±(99.9%) 0.090 ms/op
+
+  Histogram, ms/op:
+    [0.200, 0.250) = 1 
+    [0.250, 0.300) = 1 
+    [0.300, 0.350) = 0 
+    [0.350, 0.400) = 1 
+    [0.400, 0.450) = 5 
+    [0.450, 0.500) = 7 
+    [0.500, 0.550) = 2 
+    [0.550, 0.600) = 1 
+    [0.600, 0.650) = 1 
+
+  Percentiles, ms/op:
+      p(0.0000) =      0.228 ms/op
+     p(50.0000) =      0.460 ms/op
+     p(90.0000) =      0.622 ms/op
+     p(95.0000) =      0.673 ms/op
+     p(99.0000) =      0.676 ms/op
+     p(99.9000) =      0.676 ms/op
+     p(99.9900) =      0.676 ms/op
+     p(99.9990) =      0.676 ms/op
+     p(99.9999) =      0.676 ms/op
+    p(100.0000) =      0.676 ms/op
+
+
+# Run complete. Total time: 00:10:52
+
+Benchmark                                                                   Mode      Cnt    Score   Error   Units
+StringBuilderBenchmark.testStringAdd                                       thrpt       20   21.421 ± 2.113  ops/ms
+StringBuilderBenchmark.testStringBuilderAdd                                thrpt       20   27.237 ± 5.729  ops/ms
+StringBuilderBenchmark.testStringAdd                                        avgt       20    0.296 ± 0.018   ms/op
+StringBuilderBenchmark.testStringBuilderAdd                                 avgt       20    0.286 ± 0.032   ms/op
+StringBuilderBenchmark.testStringAdd                                      sample  2416649    0.248 ± 0.002   ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.00                  sample             0.008           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.50                  sample             0.150           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.90                  sample             0.457           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.95                  sample             0.554           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.99                  sample             1.610           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.999                 sample            10.076           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p0.9999                sample            35.805           ms/op
+StringBuilderBenchmark.testStringAdd:testStringAdd·p1.00                  sample           273.678           ms/op
+StringBuilderBenchmark.testStringBuilderAdd                               sample  2163937    0.277 ± 0.001   ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.00    sample             0.008           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.50    sample             0.052           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.90    sample             0.737           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.95    sample             1.067           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.99    sample             2.138           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.999   sample             5.595           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p0.9999  sample            10.617           ms/op
+StringBuilderBenchmark.testStringBuilderAdd:testStringBuilderAdd·p1.00    sample            19.431           ms/op
+StringBuilderBenchmark.testStringAdd                                          ss       20    0.516 ± 0.178   ms/op
+StringBuilderBenchmark.testStringBuilderAdd                                   ss       20    0.461 ± 0.090   ms/op
